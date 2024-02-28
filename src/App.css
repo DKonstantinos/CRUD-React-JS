@@ -1,0 +1,66 @@
+body#main {
+    background-color: #DC3545;
+    color: white;
+    font-family: Rajdhani;
+    font-size: 20px;
+  }
+
+div#navmain {
+  background-color: #DC3545;
+  color: white;
+  font-family: Rajdhani;
+  font-size: 20px;
+}
+
+ /* unvisited link */
+ a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: white;
+} 
+
+
+div.form-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+  background-size: cover;
+}
+
+div.flex-item-left-form {
+  padding: 25px;
+  margin: 100px;
+  border: 3px solid white;
+  width:650px;
+  flex-shrink: 0;
+}
+
+div.flex-item-right-form {
+  flex: 35%;
+  flex-shrink: 0;
+}
+
+
+div.article {
+  border: 3px solid white;
+  margin-top: 100px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  padding: 15px;
+}
